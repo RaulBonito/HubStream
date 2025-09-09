@@ -1,0 +1,551 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.shared\\hubstream.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\hubstream.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\entities\\livestream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\entities\\livestream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\entities\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\entities\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\users\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\users\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\valueobjects\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\valueobjects\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\events\\userenrolledtostream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\events\\userenrolledtostream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\users\\valueobjects\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\users\\valueobjects\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\users\\events\\userpromotedtostreamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\users\\events\\userpromotedtostreamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.shared\\kernel\\agregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\agregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.shared\\kernel\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.shared\\kernel\\isoftdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\isoftdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.shared\\kernel\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.shared\\kernel\\identifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\identifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.shared\\kernel\\iauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\iauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.shared\\kernel\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.shared\\kernel\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\valueobjects\\streamtimeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\valueobjects\\streamtimeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\valueobjects\\streamcapacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\valueobjects\\streamcapacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\events\\reviewsubmitted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\events\\reviewsubmitted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\events\\livestreamstarted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\events\\livestreamstarted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\events\\livestreamscheduled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\events\\livestreamscheduled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\events\\livestreamended.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\events\\livestreamended.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\events\\livestreamcancelled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\events\\livestreamcancelled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\scheduling\\enums\\livestreamstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\scheduling\\enums\\livestreamstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\currencies\\enums\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\currencies\\enums\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\currencies\\entities\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\currencies\\entities\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\hubstream.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\hubstream.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\users\\valueobjects\\fullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\users\\valueobjects\\fullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\users\\events\\userregistered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\users\\events\\userregistered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|c:\\users\\rbonito\\source\\repos\\hubstream\\hubstream.domain\\users\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1544699-00C6-40D8-B023-F926A440E290}|HubStream.Domain\\HubStream.Domain.csproj|solutionrelative:hubstream.domain\\users\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 30,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LiveStreamEnded.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamEnded.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\LiveStreamEnded.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamEnded.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\Events\\LiveStreamEnded.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:40:52.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LiveStreamStarted.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamStarted.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\LiveStreamStarted.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamStarted.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\Events\\LiveStreamStarted.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:39:17.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LiveStreamCancelled.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamCancelled.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\LiveStreamCancelled.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamCancelled.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\Events\\LiveStreamCancelled.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:36:48.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReviewSubmitted.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\ReviewSubmitted.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\ReviewSubmitted.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\ReviewSubmitted.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\Events\\ReviewSubmitted.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:30:37.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\ValueObjects\\Rating.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\ValueObjects\\Rating.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\ValueObjects\\Rating.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\ValueObjects\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:27:53.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Entities\\Review.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Entities\\Review.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\Entities\\Review.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:25:13.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserEnrolledToStream.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\UserEnrolledToStream.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\UserEnrolledToStream.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\UserEnrolledToStream.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\Events\\UserEnrolledToStream.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:00:36.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LiveStreamScheduled.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamScheduled.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\LiveStreamScheduled.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamScheduled.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\Events\\LiveStreamScheduled.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:52:56.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Entities\\Enrollment.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Entities\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Entities\\Enrollment.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\Entities\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:49:24.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\Result.cs",
+              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Result.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\Result.cs",
+              "RelativeToolTip": "HubStream.Shared\\Kernel\\Result.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:45:50.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Error.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\Error.cs",
+              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Error.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\Error.cs",
+              "RelativeToolTip": "HubStream.Shared\\Kernel\\Error.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:45:28.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StreamCapacity.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\ValueObjects\\StreamCapacity.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\ValueObjects\\StreamCapacity.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\ValueObjects\\StreamCapacity.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\ValueObjects\\StreamCapacity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:40:11.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StreamTimeSlot.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\ValueObjects\\StreamTimeSlot.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\ValueObjects\\StreamTimeSlot.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\ValueObjects\\StreamTimeSlot.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\ValueObjects\\StreamTimeSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:39:39.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Currencies\\Enums\\Currency.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Currencies\\Enums\\Currency.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Currencies\\Enums\\Currency.cs",
+              "RelativeToolTip": "HubStream.Domain\\Currencies\\Enums\\Currency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:31:49.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Money.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Currencies\\Entities\\Money.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Currencies\\Entities\\Money.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Currencies\\Entities\\Money.cs",
+              "RelativeToolTip": "HubStream.Domain\\Currencies\\Entities\\Money.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:28:20.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HubStream.Domain",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj",
+              "RelativeDocumentMoniker": "HubStream.Domain\\HubStream.Domain.csproj",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj",
+              "RelativeToolTip": "HubStream.Domain\\HubStream.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-09T10:27:57.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LiveStreamStatus.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Enums\\LiveStreamStatus.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Enums\\LiveStreamStatus.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Enums\\LiveStreamStatus.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\Enums\\LiveStreamStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:21:07.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LiveStream.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Entities\\LiveStream.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Entities\\LiveStream.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Scheduling\\Entities\\LiveStream.cs",
+              "RelativeToolTip": "HubStream.Domain\\Scheduling\\Entities\\LiveStream.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAqwHEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:20:59.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Identifier.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\Identifier.cs",
+              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Identifier.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\Identifier.cs",
+              "RelativeToolTip": "HubStream.Shared\\Kernel\\Identifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:18:31.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\ValueObjects\\UserProfile.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Users\\ValueObjects\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\ValueObjects\\UserProfile.cs",
+              "RelativeToolTip": "HubStream.Domain\\Users\\ValueObjects\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:05:14.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\ValueObjects\\Email.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Users\\ValueObjects\\Email.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\ValueObjects\\Email.cs",
+              "RelativeToolTip": "HubStream.Domain\\Users\\ValueObjects\\Email.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:04:57.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FullName.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\ValueObjects\\FullName.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Users\\ValueObjects\\FullName.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\ValueObjects\\FullName.cs",
+              "RelativeToolTip": "HubStream.Domain\\Users\\ValueObjects\\FullName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:04:37.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserPromotedToStreamer.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\Events\\UserPromotedToStreamer.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Users\\Events\\UserPromotedToStreamer.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\Events\\UserPromotedToStreamer.cs",
+              "RelativeToolTip": "HubStream.Domain\\Users\\Events\\UserPromotedToStreamer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:04:16.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserRegistered.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\Events\\UserRegistered.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Users\\Events\\UserRegistered.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\Events\\UserRegistered.cs",
+              "RelativeToolTip": "HubStream.Domain\\Users\\Events\\UserRegistered.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:02:59.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ISoftDelete.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\ISoftDelete.cs",
+              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\ISoftDelete.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\ISoftDelete.cs",
+              "RelativeToolTip": "HubStream.Shared\\Kernel\\ISoftDelete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:52:50.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\IAuditableEntity.cs",
+              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\IAuditableEntity.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\IAuditableEntity.cs",
+              "RelativeToolTip": "HubStream.Shared\\Kernel\\IAuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:52:16.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "HubStream.Domain\\Users\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\Users\\Entities\\User.cs",
+              "RelativeToolTip": "HubStream.Domain\\Users\\Entities\\User.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIA2wC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:48:02.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\IDomainEvent.cs",
+              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\IDomainEvent.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\IDomainEvent.cs",
+              "RelativeToolTip": "HubStream.Shared\\Kernel\\IDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:46:52.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AgregateRoot.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\AgregateRoot.cs",
+              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\AgregateRoot.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\AgregateRoot.cs",
+              "RelativeToolTip": "HubStream.Shared\\Kernel\\AgregateRoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:36:54.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\Entity.cs",
+              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Entity.cs",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\Kernel\\Entity.cs",
+              "RelativeToolTip": "HubStream.Shared\\Kernel\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:35:51.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HubStream.Shared",
+              "DocumentMoniker": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj",
+              "RelativeDocumentMoniker": "HubStream.Shared\\HubStream.Shared.csproj",
+              "ToolTip": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj",
+              "RelativeToolTip": "HubStream.Shared\\HubStream.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-09T09:35:24.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

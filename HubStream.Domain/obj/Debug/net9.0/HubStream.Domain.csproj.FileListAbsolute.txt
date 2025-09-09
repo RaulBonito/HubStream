@@ -1,0 +1,15 @@
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\bin\Debug\net9.0\HubStream.Domain.deps.json
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\bin\Debug\net9.0\HubStream.Domain.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\bin\Debug\net9.0\HubStream.Domain.pdb
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\bin\Debug\net9.0\HubStream.Shared.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\bin\Debug\net9.0\HubStream.Shared.pdb
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\obj\Debug\net9.0\HubStream.Domain.csproj.AssemblyReference.cache
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\obj\Debug\net9.0\HubStream.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\obj\Debug\net9.0\HubStream.Domain.AssemblyInfoInputs.cache
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\obj\Debug\net9.0\HubStream.Domain.AssemblyInfo.cs
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\obj\Debug\net9.0\HubStream.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\obj\Debug\net9.0\HubStrea.5DB67387.Up2Date
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\obj\Debug\net9.0\HubStream.Domain.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\obj\Debug\net9.0\refint\HubStream.Domain.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\obj\Debug\net9.0\HubStream.Domain.pdb
+C:\Users\rbonito\source\repos\HubStream\HubStream.Domain\obj\Debug\net9.0\ref\HubStream.Domain.dll

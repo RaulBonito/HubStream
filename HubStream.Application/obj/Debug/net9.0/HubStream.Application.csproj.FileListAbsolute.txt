@@ -1,0 +1,11 @@
+C:\Users\rbonito\source\repos\HubStream\HubStream.Application\bin\Debug\net9.0\HubStream.Application.deps.json
+C:\Users\rbonito\source\repos\HubStream\HubStream.Application\bin\Debug\net9.0\HubStream.Application.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Application\bin\Debug\net9.0\HubStream.Application.pdb
+C:\Users\rbonito\source\repos\HubStream\HubStream.Application\obj\Debug\net9.0\HubStream.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbonito\source\repos\HubStream\HubStream.Application\obj\Debug\net9.0\HubStream.Application.AssemblyInfoInputs.cache
+C:\Users\rbonito\source\repos\HubStream\HubStream.Application\obj\Debug\net9.0\HubStream.Application.AssemblyInfo.cs
+C:\Users\rbonito\source\repos\HubStream\HubStream.Application\obj\Debug\net9.0\HubStream.Application.csproj.CoreCompileInputs.cache
+C:\Users\rbonito\source\repos\HubStream\HubStream.Application\obj\Debug\net9.0\HubStream.Application.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Application\obj\Debug\net9.0\refint\HubStream.Application.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Application\obj\Debug\net9.0\HubStream.Application.pdb
+C:\Users\rbonito\source\repos\HubStream\HubStream.Application\obj\Debug\net9.0\ref\HubStream.Application.dll

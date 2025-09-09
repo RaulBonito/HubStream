@@ -1,0 +1,11 @@
+C:\Users\rbonito\source\repos\HubStream\HubStream.Shared\bin\Debug\net9.0\HubStream.Shared.deps.json
+C:\Users\rbonito\source\repos\HubStream\HubStream.Shared\bin\Debug\net9.0\HubStream.Shared.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Shared\bin\Debug\net9.0\HubStream.Shared.pdb
+C:\Users\rbonito\source\repos\HubStream\HubStream.Shared\obj\Debug\net9.0\HubStream.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbonito\source\repos\HubStream\HubStream.Shared\obj\Debug\net9.0\HubStream.Shared.AssemblyInfoInputs.cache
+C:\Users\rbonito\source\repos\HubStream\HubStream.Shared\obj\Debug\net9.0\HubStream.Shared.AssemblyInfo.cs
+C:\Users\rbonito\source\repos\HubStream\HubStream.Shared\obj\Debug\net9.0\HubStream.Shared.csproj.CoreCompileInputs.cache
+C:\Users\rbonito\source\repos\HubStream\HubStream.Shared\obj\Debug\net9.0\HubStream.Shared.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Shared\obj\Debug\net9.0\refint\HubStream.Shared.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Shared\obj\Debug\net9.0\HubStream.Shared.pdb
+C:\Users\rbonito\source\repos\HubStream\HubStream.Shared\obj\Debug\net9.0\ref\HubStream.Shared.dll
