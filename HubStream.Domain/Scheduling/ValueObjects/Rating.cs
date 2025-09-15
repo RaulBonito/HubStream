@@ -1,4 +1,4 @@
-﻿using HubStream.Shared.Kernel;
+﻿using HubStream.Shared.Kernel.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,6 +1,6 @@
 ﻿using HubStream.Domain.Users.Events;
 using HubStream.Domain.Users.ValueObjects;
-using HubStream.Shared.Kernel;
+using HubStream.Shared.Kernel.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,6 +1,7 @@
 ﻿using HubStream.Domain.Scheduling.Events;
 using HubStream.Domain.Scheduling.ValueObjects;
-using HubStream.Shared.Kernel;
+using HubStream.Shared.Kernel.Common;
+using HubStream.Shared.Kernel.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;

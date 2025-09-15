@@ -1,4 +1,4 @@
-﻿using HubStream.Domain.Currencies.Enums;
+using HubStream.Domain.Currencies.Enums;
 using System;
 
 namespace HubStream.Domain.Currencies.Entities

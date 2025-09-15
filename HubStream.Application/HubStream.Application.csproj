@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Auth" Version="1.71.0" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="9.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HubStream.Domain\HubStream.Domain.csproj" />
+    <ProjectReference Include="..\HubStream.Shared\HubStream.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

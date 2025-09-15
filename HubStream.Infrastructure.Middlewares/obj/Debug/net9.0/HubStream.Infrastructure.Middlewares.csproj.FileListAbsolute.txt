@@ -1,0 +1,16 @@
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\bin\Debug\net9.0\HubStream.Infrastructure.Middlewares.deps.json
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\bin\Debug\net9.0\HubStream.Infrastructure.Middlewares.dll
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\bin\Debug\net9.0\HubStream.Infrastructure.Middlewares.pdb
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\bin\Debug\net9.0\HubStream.Shared.dll
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\bin\Debug\net9.0\HubStream.Shared.pdb
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\obj\Debug\net9.0\HubStream.Infrastructure.Middlewares.csproj.AssemblyReference.cache
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\obj\Debug\net9.0\HubStream.Infrastructure.Middlewares.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\obj\Debug\net9.0\HubStream.Infrastructure.Middlewares.AssemblyInfoInputs.cache
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\obj\Debug\net9.0\HubStream.Infrastructure.Middlewares.AssemblyInfo.cs
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\obj\Debug\net9.0\HubStream.Infrastructure.Middlewares.csproj.CoreCompileInputs.cache
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\obj\Debug\net9.0\HubStream.Infrastructure.Middlewares.sourcelink.json
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\obj\Debug\net9.0\HubStrea.867FAA08.Up2Date
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\obj\Debug\net9.0\HubStream.Infrastructure.Middlewares.dll
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\obj\Debug\net9.0\refint\HubStream.Infrastructure.Middlewares.dll
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\obj\Debug\net9.0\HubStream.Infrastructure.Middlewares.pdb
+D:\Development\Repositories\HubStream\HubStream.Infrastructure.Middlewares\obj\Debug\net9.0\ref\HubStream.Infrastructure.Middlewares.dll

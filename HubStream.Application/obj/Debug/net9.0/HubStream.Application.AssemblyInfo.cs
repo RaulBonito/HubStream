@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HubStream.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1fdde1831b0fe783ce6f13c57fc847a944945e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e25c8cb00301e9ae3444dd5e894151b4cebacf8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("HubStream.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HubStream.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
