@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +10,16 @@ namespace HubStream.Shared.Kernel.Common
     {
         public string Code { get; set; }
         public string Message { get; set; }
+        
+        public ApiError()
+        {
+
+        }
+
+        public ApiError(string code, string message)
+        {
+            Code = code;
+            Message = message;
+        }   
     }
 }

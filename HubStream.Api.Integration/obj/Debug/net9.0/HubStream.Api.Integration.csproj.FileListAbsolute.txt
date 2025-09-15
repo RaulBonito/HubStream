@@ -1,0 +1,16 @@
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\obj\Debug\net9.0\HubStream.Api.Integration.csproj.AssemblyReference.cache
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\obj\Debug\net9.0\HubStream.Api.Integration.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\obj\Debug\net9.0\HubStream.Api.Integration.AssemblyInfoInputs.cache
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\obj\Debug\net9.0\HubStream.Api.Integration.AssemblyInfo.cs
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\obj\Debug\net9.0\HubStream.Api.Integration.csproj.CoreCompileInputs.cache
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\obj\Debug\net9.0\HubStream.Api.Integration.sourcelink.json
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\bin\Debug\net9.0\HubStream.Api.Integration.deps.json
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\bin\Debug\net9.0\HubStream.Api.Integration.dll
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\bin\Debug\net9.0\HubStream.Api.Integration.pdb
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\bin\Debug\net9.0\HubStream.Shared.dll
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\bin\Debug\net9.0\HubStream.Shared.pdb
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\obj\Debug\net9.0\HubStrea.B0766024.Up2Date
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\obj\Debug\net9.0\HubStream.Api.Integration.dll
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\obj\Debug\net9.0\refint\HubStream.Api.Integration.dll
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\obj\Debug\net9.0\HubStream.Api.Integration.pdb
+D:\Development\Repositories\HubStream\HubStream.Api.Integration\obj\Debug\net9.0\ref\HubStream.Api.Integration.dll
