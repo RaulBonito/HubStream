@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs/HubStream/FileContentIndex
+/HubStream.Application/bin/Debug/net9.0/HubStream.Application.deps.json
+/HubStream.Application/bin/Debug/net9.0/HubStream.Application.dll
+/HubStream.Application/bin/Debug/net9.0/HubStream.Application.pdb
+/HubStream.Application/bin/Debug/net9.0/HubStream.Domain.dll
+/HubStream.Application/bin/Debug/net9.0/HubStream.Domain.pdb
+/HubStream.Application/bin/Debug/net9.0/HubStream.Shared.dll
+/HubStream.Application/bin/Debug/net9.0/HubStream.Shared.pdb
