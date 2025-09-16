@@ -842,26 +842,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rbonito\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
+    "C:\\Users\\usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj",
+      "projectUniqueName": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj",
       "projectName": "HubStream.Infrastructure.Middlewares",
-      "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj",
-      "packagesPath": "C:\\Users\\rbonito\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Middlewares\\obj\\",
+      "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj",
+      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rbonito\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -869,17 +869,19 @@
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+        "C:\\MyNuGetLibrary": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\MatchDeal\\NuGet": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
-              "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
+            "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
+              "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
             }
           }
         }
@@ -929,7 +931,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

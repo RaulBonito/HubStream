@@ -1,4 +1,7 @@
 using Google.Apis.Auth;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.PeopleService.v1;
+using Google.Apis.Services;
 using HubStream.Application.Features.Authentication.Commands.Login;
 using HubStream.Application.Services.Common;
 using HubStream.Domain.Users.Entities;
@@ -6,14 +9,12 @@ using HubStream.Shared.Kernel.Common;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
-using System.Text;
+using System.Net.Http.Headers;
+using System.Threading;
 using System.Threading.Tasks;
-// Asegúrate de tener las bibliotecas adecuadas para Microsoft si usas validación de token a nivel de backend.
-// Para Microsoft, a menudo se usa un flujo OAuth2/OpenID Connect con validación de tokens JWT en el cliente o directamente con Identity.
 
 namespace HubStream.Application.Features.Authentication.Commands.ExternalLogin
 {
@@ -21,70 +22,68 @@ namespace HubStream.Application.Features.Authentication.Commands.ExternalLogin
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IJwtTokenGenerator _jwtTokenGenerator;
-        private readonly IConfiguration _configuration;
+        private readonly ILogger<ExternalLoginCommandHandler> _logger;
 
-        public ExternalLoginCommandHandler(UserManager<ApplicationUser> userManager, IJwtTokenGenerator jwtTokenGenerator, IConfiguration configuration)
+        public ExternalLoginCommandHandler(
+            UserManager<ApplicationUser> userManager,
+            IJwtTokenGenerator jwtTokenGenerator,
+            ILogger<ExternalLoginCommandHandler> logger)
         {
             _userManager = userManager;
             _jwtTokenGenerator = jwtTokenGenerator;
-            _configuration = configuration;
+            _logger = logger;
         }
 
         public async Task<Result<LoginResult>> Handle(ExternalLoginCommand request, CancellationToken cancellationToken)
         {
             try
             {
-                string email = null;
-                string subject = null; // En Google es payload.Subject, en otros podría ser el ID de usuario del proveedor.
+                string email;
+                string subject;
+                string fullName;
 
-                // 1. Validar el token externo y extraer información del usuario
+                // 1. Validar el token de acceso y extraer información del usuario
                 if (request.Provider.Equals("Google", StringComparison.OrdinalIgnoreCase))
                 {
-                    var validationSettings = new GoogleJsonWebSignature.ValidationSettings
+                    _logger.LogInformation("Attempting to get user info using Google Access Token.");
+
+                    // Usar el AccessToken para llamar a la API de Google People
+                    var peopleService = new PeopleServiceService(new BaseClientService.Initializer
                     {
-                        Audience = new[] { _configuration["Authentication:Google:ClientId"] }
-                    };
-                    var payload = await GoogleJsonWebSignature.ValidateAsync(request.IdToken, validationSettings);
-                    email = payload.Email;
-                    subject = payload.Subject;
-                }
-                else if (request.Provider.Equals("Microsoft", StringComparison.OrdinalIgnoreCase))
-                {
-                    // Para Microsoft, la validación del token JWT puede ser similar a Google si estás recibiendo un ID Token.
-                    // Sin embargo, si estás utilizando un flujo de autenticación estándar de ASP.NET Core Identity con proveedores externos,
-                    // la validación del token de acceso se realiza a menudo en el cliente, y el backend recibe un ClaimsPrincipal.
-                    // Si recibes un ID Token de Microsoft, puedes validarlo usando una librería JWT o implementando la validación.
-                    // Para este ejemplo, asumiremos que recibes un ID Token que puedes validar.
-                    // **NOTA:** La validación de tokens de Microsoft es más compleja y a menudo requiere una librería como
-                    // Microsoft.IdentityModel.Tokens o directamente usar el middleware de autenticación de ASP.NET Core
-                    // para external logins, que ya maneja la validación y te proporciona los claims.
-                    // Si estás enviando el 'IdToken' desde el frontend, aquí tendrías que validarlo.
-                    // Por ejemplo, usando una librería JWT genérica o una específica para Microsoft.
+                        HttpClientInitializer = GoogleCredential.FromAccessToken(request.AccessToken),
+                        ApplicationName = "HubStream"
+                    });
 
-                    // EJEMPLO ILUSTRATIVO (NO COMPLETO PARA PRODUCCIÓN SIN LIBRERÍA DE VALIDACIÓN JWT):
-                    // var handler = new System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler();
-                    // var jsonToken = handler.ReadToken(request.IdToken) as System.IdentityModel.Tokens.Jwt.JwtSecurityToken;
-                    // email = jsonToken?.Claims.FirstOrDefault(c => c.Type == "email")?.Value;
-                    // subject = jsonToken?.Claims.FirstOrDefault(c => c.Type == "sub")?.Value; // O 'oid' para object ID de Azure AD
+                    // Solicitar el perfil del usuario autenticado ('me')
+                    var getRequest = peopleService.People.Get("people/me");
+                    getRequest.PersonFields = "names,emailAddresses,metadata"; // Pedimos nombres, emails y metadatos (para el ID)
 
-                    // ALTERNATIVA: Si ya usas el middleware de autenticación de ASP.NET Core Identity para Microsoft,
-                    // el flujo sería diferente; este handler se enfocaría en asociar el login externo ya autenticado.
-                    // Para este escenario de "recibir IdToken y validarlo en el backend", necesitarías una librería JWT robusta
-                    // para validar tokens de Microsoft y extraer los claims.
+                    var person = await getRequest.ExecuteAsync(cancellationToken);
 
-                    // Por simplicidad para este ejemplo, vamos a asumir que podemos obtener el email y un identificador único
-                    // de alguna manera después de una "validación" (o que el cliente nos lo envía ya validado y confiable).
-                    // En un escenario real, usarías Microsoft.Identity.Web o alguna librería similar para esto.
-                    throw new NotImplementedException("La validación de tokens de Microsoft requiere una implementación más robusta. Considera usar el middleware de autenticación de ASP.NET Core Identity para proveedores externos.");
+                    if (person == null)
+                    {
+                        return Result<LoginResult>.Failure(new Error("Auth.InvalidExternalToken", "No se pudo obtener la información del usuario desde Google."));
+                    }
+
+                    // Extraer email principal
+                    email = person.EmailAddresses?.FirstOrDefault(e => e.Metadata?.Primary == true)?.Value;
+
+                    // Extraer el ID de usuario (subject)
+                    subject = person.Metadata?.Sources?.FirstOrDefault(s => s.Type == "PROFILE")?.Id;
+
+                    // Extraer el nombre para mostrar
+                    fullName = person.Names?.FirstOrDefault(n => n.Metadata?.Primary == true)?.DisplayName;
+
+                    if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(subject))
+                    {
+                        return Result<LoginResult>.Failure(new Error("Auth.InvalidExternalToken", "No se pudo extraer el email o el identificador del token externo."));
+                    }
+
+                    _logger.LogInformation("Google user info retrieved successfully for email: {Email}", email);
                 }
                 else
                 {
                     return Result<LoginResult>.Failure(new Error("Auth.UnsupportedProvider", $"Proveedor externo no soportado: {request.Provider}"));
-                }
-
-                if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(subject))
-                {
-                    return Result<LoginResult>.Failure(new Error("Auth.InvalidExternalToken", "No se pudo extraer el email o el identificador del token externo."));
                 }
 
                 // 2. Buscar si el usuario ya existe con este login externo
@@ -93,34 +92,40 @@ namespace HubStream.Application.Features.Authentication.Commands.ExternalLogin
 
                 if (user == null)
                 {
-                    // Si no existe, buscar por email
+                    _logger.LogInformation("External login user not found for provider {Provider} and key {ProviderKey}. Searching by email {Email}", info.LoginProvider, info.ProviderKey, email);
                     user = await _userManager.FindByEmailAsync(email);
 
                     if (user == null)
                     {
-                        // Si no existe ni por login ni por email, es un usuario nuevo
+                        _logger.LogInformation("User not found by email. Creating a new user for {Email}", email);
                         user = new ApplicationUser
                         {
-                            UserName = email,
+                            Id = Identifier.New(),
+                            UserName = email, // O usa 'fullName' si lo prefieres
                             Email = email,
                             EmailConfirmed = true // El proveedor ya lo ha verificado
                         };
                         var createResult = await _userManager.CreateAsync(user);
                         if (!createResult.Succeeded)
                         {
-                            return Result<LoginResult>.Failure(new Error("User.CreationFailed", "No se pudo crear el usuario."));
+                            var errors = string.Join(", ", createResult.Errors.Select(e => e.Description));
+                            _logger.LogError("Failed to create new user: {Errors}", errors);
+                            return Result<LoginResult>.Failure(new Error("User.CreationFailed", $"No se pudo crear el usuario: {errors}"));
                         }
                     }
 
-                    // Añadir el login externo a la cuenta del usuario (nueva o existente)
+                    _logger.LogInformation("Adding external login info to user {UserId}", user.Id);
                     var addLoginResult = await _userManager.AddLoginAsync(user, info);
                     if (!addLoginResult.Succeeded)
                     {
-                        return Result<LoginResult>.Failure(new Error("Login.AddLoginFailed", "No se pudo añadir el login externo al usuario."));
+                        var errors = string.Join(", ", addLoginResult.Errors.Select(e => e.Description));
+                        _logger.LogError("Failed to add external login: {Errors}", errors);
+                        return Result<LoginResult>.Failure(new Error("Login.AddLoginFailed", $"No se pudo añadir el login externo al usuario: {errors}"));
                     }
                 }
 
                 // 3. Generar los tokens de nuestra aplicación
+                _logger.LogInformation("Generating internal tokens for user {UserId}", user.Id);
                 var accessToken = await _jwtTokenGenerator.GenerateTokenAsync(user);
                 var refreshToken = await _jwtTokenGenerator.GenerateRefreshTokenAsync(user);
 
@@ -128,23 +133,21 @@ namespace HubStream.Application.Features.Authentication.Commands.ExternalLogin
                 {
                     UserId = user.Id.ToString(),
                     Email = user.Email,
+                    FullName = user.UserName, // Opcionalmente, usa el 'fullName' obtenido de la API
                     Token = accessToken,
                     RefreshToken = refreshToken
                 };
 
                 return Result<LoginResult>.Success(loginResult);
             }
-            catch (InvalidJwtException ex)
+            catch (Google.GoogleApiException ex)
             {
+                _logger.LogError(ex, "Google API error. The access token may be invalid or expired.");
                 return Result<LoginResult>.Failure(new Error("Auth.InvalidExternalToken", $"Token externo inválido para Google: {ex.Message}"));
-            }
-            catch (NotImplementedException ex) // Capturar la excepción específica de Microsoft si se lanza.
-            {
-                return Result<LoginResult>.Failure(new Error("Auth.ProviderConfigurationError", $"Error de configuración o implementación para el proveedor: {ex.Message}"));
             }
             catch (Exception ex)
             {
-                // Aquí puedes loggear el error para debugging.
+                _logger.LogError(ex, "An unexpected error occurred during external login.");
                 return Result<LoginResult>.Failure(new Error("Auth.ExternalLoginError", $"Ocurrió un error inesperado durante el inicio de sesión externo: {ex.Message}"));
             }
         }

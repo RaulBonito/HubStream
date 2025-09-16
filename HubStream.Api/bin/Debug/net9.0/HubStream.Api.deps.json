@@ -71,6 +71,18 @@
           }
         }
       },
+      "Google.Apis.PeopleService.v1/1.69.0.3785": {
+        "dependencies": {
+          "Google.Apis": "1.71.0",
+          "Google.Apis.Auth": "1.71.0"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.PeopleService.v1.dll": {
+            "assemblyVersion": "1.69.0.3785",
+            "fileVersion": "1.69.0.3785"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -1201,11 +1213,19 @@
       },
       "System.Security.Principal.Windows/5.0.0": {},
       "System.Text.Encodings.Web/8.0.0": {},
-      "System.Text.Json/9.0.9": {},
+      "System.Text.Json/9.0.9": {
+        "runtime": {
+          "lib/net9.0/System.Text.Json.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.925.41916"
+          }
+        }
+      },
       "System.Threading.Channels/8.0.0": {},
       "HubStream.Application/1.0.0": {
         "dependencies": {
           "Google.Apis.Auth": "1.71.0",
+          "Google.Apis.PeopleService.v1": "1.69.0.3785",
           "HubStream.Domain": "1.0.0",
           "HubStream.Shared": "1.0.0",
           "MediatR": "13.0.0",
@@ -1327,6 +1347,13 @@
       "sha512": "sha512-tCsg4USOGBVCIrSOyLht1akZe/+ioH7+LVWix6XuxP5fFiw5kEFSBXL+Of93aK/ztJa1dQI+p03dJ+AKgViRuw==",
       "path": "google.apis.core/1.71.0",
       "hashPath": "google.apis.core.1.71.0.nupkg.sha512"
+    },
+    "Google.Apis.PeopleService.v1/1.69.0.3785": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wWfCxoAGCh+mLQBUB2Ow9+mUh5pAcg045DyHcSusQ6mbWqoU9K/1O0IX8jBcUNxSQkkH6Gb0PoxxJn4wTf9RUw==",
+      "path": "google.apis.peopleservice.v1/1.69.0.3785",
+      "hashPath": "google.apis.peopleservice.v1.1.69.0.3785.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

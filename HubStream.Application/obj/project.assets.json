@@ -52,6 +52,23 @@
           }
         }
       },
+      "Google.Apis.PeopleService.v1/1.69.0.3785": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.69.0",
+          "Google.Apis.Auth": "1.69.0"
+        },
+        "compile": {
+          "lib/net6.0/Google.Apis.PeopleService.v1.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.PeopleService.v1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MediatR/13.0.0": {
         "type": "package",
         "dependencies": {
@@ -1018,6 +1035,28 @@
         "lib/netstandard2.0/Google.Apis.Core.dll",
         "lib/netstandard2.0/Google.Apis.Core.pdb",
         "lib/netstandard2.0/Google.Apis.Core.xml"
+      ]
+    },
+    "Google.Apis.PeopleService.v1/1.69.0.3785": {
+      "sha512": "wWfCxoAGCh+mLQBUB2Ow9+mUh5pAcg045DyHcSusQ6mbWqoU9K/1O0IX8jBcUNxSQkkH6Gb0PoxxJn4wTf9RUw==",
+      "type": "package",
+      "path": "google.apis.peopleservice.v1/1.69.0.3785",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.peopleservice.v1.1.69.0.3785.nupkg.sha512",
+        "google.apis.peopleservice.v1.nuspec",
+        "lib/net462/Google.Apis.PeopleService.v1.dll",
+        "lib/net462/Google.Apis.PeopleService.v1.pdb",
+        "lib/net462/Google.Apis.PeopleService.v1.xml",
+        "lib/net6.0/Google.Apis.PeopleService.v1.dll",
+        "lib/net6.0/Google.Apis.PeopleService.v1.pdb",
+        "lib/net6.0/Google.Apis.PeopleService.v1.xml",
+        "lib/netstandard2.0/Google.Apis.PeopleService.v1.dll",
+        "lib/netstandard2.0/Google.Apis.PeopleService.v1.pdb",
+        "lib/netstandard2.0/Google.Apis.PeopleService.v1.xml"
       ]
     },
     "MediatR/13.0.0": {
@@ -2210,6 +2249,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Google.Apis.Auth >= 1.71.0",
+      "Google.Apis.PeopleService.v1 >= 1.69.0.3785",
       "HubStream.Domain >= 1.0.0",
       "HubStream.Shared >= 1.0.0",
       "MediatR >= 13.0.0",
@@ -2217,26 +2257,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rbonito\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
+    "C:\\Users\\usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\HubStream.Application.csproj",
+      "projectUniqueName": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj",
       "projectName": "HubStream.Application",
-      "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\HubStream.Application.csproj",
-      "packagesPath": "C:\\Users\\rbonito\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\obj\\",
+      "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj",
+      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rbonito\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2244,20 +2284,22 @@
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+        "C:\\MyNuGetLibrary": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\MatchDeal\\NuGet": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj": {
-              "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj"
+            "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj": {
+              "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj"
             },
-            "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
-              "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
+            "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
+              "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
             }
           }
         }
@@ -2281,6 +2323,10 @@
           "Google.Apis.Auth": {
             "target": "Package",
             "version": "[1.71.0, )"
+          },
+          "Google.Apis.PeopleService.v1": {
+            "target": "Package",
+            "version": "[1.69.0.3785, )"
           },
           "MediatR": {
             "target": "Package",
@@ -2307,7 +2353,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

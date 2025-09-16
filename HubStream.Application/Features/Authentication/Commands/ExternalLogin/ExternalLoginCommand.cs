@@ -12,6 +12,6 @@ namespace HubStream.Application.Features.Authentication.Commands.ExternalLogin
     public class ExternalLoginCommand : IRequest<Result<LoginResult>>
     {
         public string Provider { get; set; } // "Google", "Facebook", etc.
-        public string IdToken { get; set; }
+        public string AccessToken { get; set; }
     }
 }
