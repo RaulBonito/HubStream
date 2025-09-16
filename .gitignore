@@ -426,3 +426,5 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/.vs/HubStream/CopilotIndices/17.14.1091.29919/CodeChunks.db
+/.vs/HubStream/CopilotIndices/17.14.1091.29919/SemanticSymbols.db
