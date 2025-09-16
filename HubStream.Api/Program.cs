@@ -1,11 +1,14 @@
 // Importaciones necesarias para el proyecto
+using HubStream.Api.Filters;
 using HubStream.Application.Features.Authentication.Commands.Login;
+using HubStream.Application.Settings;
 using HubStream.Infrastructure.Middlewares;
 using HubStream.Infrastructure.Persistence;
 using HubStream.Infrastructure.Persistence.Contexts;
 using HubStream.Infrastructure.Persistence.Seeds;
 using HubStream.Infrastructure.Services;
 using HubStream.Shared.Kernel.Common;
+using HubStream.Shared.Kernel.Configuration;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -22,6 +25,16 @@ var configuration = builder.Configuration;
 // Registro de servicios en el contenedor de dependencias de ASP.NET Core.
 // -----------------------------------------------------------------------------
 
+
+var jwtSettings = new JwtSettings();
+configuration.GetSection(JwtSettings.SectionName).Bind(jwtSettings);
+builder.Services.AddSingleton(jwtSettings);
+
+var appSettings = new AppSettings();
+configuration.GetSection(AppSettings.SectionName).Bind(appSettings);
+builder.Services.AddSingleton(appSettings);
+
+
 // 1. Controladores de la API
 builder.Services.AddControllers();
 
@@ -32,11 +45,12 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"])),
+            // Usa la propiedad de la clase en lugar de la magic string
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key)),
             ValidateIssuer = true,
-            ValidIssuer = configuration["Jwt:Issuer"],
+            ValidIssuer = jwtSettings.Issuer,
             ValidateAudience = true,
-            ValidAudience = configuration["Jwt:Audience"],
+            ValidAudience = jwtSettings.Audience,
             ValidateLifetime = true,
             ClockSkew = TimeSpan.Zero
         };
@@ -94,6 +108,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddAuthorization();
 
 // 3. Soporte para OpenAPI/Swagger
+// 3. Soporte para OpenAPI/Swagger
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "HubStream API", Version = "v1" });
@@ -108,20 +123,8 @@ builder.Services.AddSwaggerGen(c =>
         Description = "Ingresa tu token JWT con el prefijo 'Bearer '. Ejemplo: 'Bearer {tu_token}'"
     });
 
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
-            },
-            new string[] {}
-        }
-    });
+    // ELIMINA el AddSecurityRequirement global y añade el filtro:
+    c.OperationFilter<AuthorizeOperationFilter>();
 });
 
 // 4. SignalR

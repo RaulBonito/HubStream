@@ -9,16 +9,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MailKitSmtpClient = MailKit.Net.Smtp.SmtpClient;
+using HubStream.Shared.Kernel.Configuration;
 
 namespace HubStream.Infrastructure.Services.Common
 {
     public class EmailService : IEmailService
     {
         private readonly IConfiguration _configuration;
+        private readonly AppSettings _settings;
 
-        public EmailService(IConfiguration configuration)
+        public EmailService(IConfiguration configuration, AppSettings settings)
         {
             _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
+            _settings = settings ?? throw new ArgumentNullException(nameof(settings));
         }
 
         public async Task SendEmailAsync(string to, string subject, string body)

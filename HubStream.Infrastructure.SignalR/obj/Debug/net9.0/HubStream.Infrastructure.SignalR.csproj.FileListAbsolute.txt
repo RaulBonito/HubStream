@@ -11,3 +11,16 @@ D:\Development\Repositories\HubStream\HubStream.Infrastructure.SignalR\obj\Debug
 D:\Development\Repositories\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\refint\HubStream.Infrastructure.SignalR.dll
 D:\Development\Repositories\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\HubStream.Infrastructure.SignalR.pdb
 D:\Development\Repositories\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\ref\HubStream.Infrastructure.SignalR.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\bin\Debug\net9.0\HubStream.Infrastructure.SignalR.deps.json
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\bin\Debug\net9.0\HubStream.Infrastructure.SignalR.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\bin\Debug\net9.0\HubStream.Infrastructure.SignalR.pdb
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\HubStream.Infrastructure.SignalR.csproj.AssemblyReference.cache
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\HubStream.Infrastructure.SignalR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\HubStream.Infrastructure.SignalR.AssemblyInfoInputs.cache
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\HubStream.Infrastructure.SignalR.AssemblyInfo.cs
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\HubStream.Infrastructure.SignalR.csproj.CoreCompileInputs.cache
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\HubStream.Infrastructure.SignalR.sourcelink.json
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\HubStream.Infrastructure.SignalR.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\refint\HubStream.Infrastructure.SignalR.dll
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\HubStream.Infrastructure.SignalR.pdb
+C:\Users\rbonito\source\repos\HubStream\HubStream.Infrastructure.SignalR\obj\Debug\net9.0\ref\HubStream.Infrastructure.SignalR.dll

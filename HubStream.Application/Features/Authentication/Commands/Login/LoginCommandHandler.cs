@@ -33,6 +33,9 @@ namespace HubStream.Application.Features.Authentication.Commands.Login
             if (user == null)
                 return Result<LoginResult>.Failure(new Error("Auth.InvalidCredentials", "El email o la contraseña son incorrectos."));
 
+            if (user.EmailConfirmed is false)
+                return Result<LoginResult>.Failure(new Error("Auth.EmailNotVerified", "El email o la contraseña son incorrectos."));
+
             var result = await _signInManager.CheckPasswordSignInAsync(user, request.Password, lockoutOnFailure: false);
             if (!result.Succeeded)
                 return Result<LoginResult>.Failure(new Error("Auth.InvalidCredentials", "El email o la contraseña son incorrectos."));
@@ -44,6 +47,7 @@ namespace HubStream.Application.Features.Authentication.Commands.Login
             var loginResult = new LoginResult
             {
                 UserId = user.Id.ToString(),
+                FullName = user.FullName,
                 Email = user.Email,
                 Token = token,
                 RefreshToken = refreshToken

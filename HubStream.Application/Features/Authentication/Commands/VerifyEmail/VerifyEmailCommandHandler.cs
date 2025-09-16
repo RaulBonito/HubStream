@@ -26,7 +26,9 @@ namespace HubStream.Application.Features.Authentication.Commands.VerifyEmail
                 return Result.Failure(new Error("Auth.InvalidVerificationRequest", "Faltan el usuario o el token."));
             }
 
-            var user = await _userManager.FindByIdAsync(request.UserId);
+            var userIdentifier = new Identifier(request.UserId);
+
+            var user = _userManager.Users.FirstOrDefault(u=> u.Id == userIdentifier);
             if (user == null)
             {
                 return Result.Failure(new Error("Auth.UserNotFound", "Usuario no encontrado."));

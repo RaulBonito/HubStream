@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\HubStream.Api.csproj": {}
+    "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Api\\HubStream.Api.csproj": {}
   },
   "projects": {
-    "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\HubStream.Api.csproj": {
+    "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Api\\HubStream.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\HubStream.Api.csproj",
+        "projectUniqueName": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Api\\HubStream.Api.csproj",
         "projectName": "HubStream.Api",
-        "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\HubStream.Api.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\obj\\",
+        "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Api\\HubStream.Api.csproj",
+        "packagesPath": "C:\\Users\\rbonito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Users\\rbonito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,37 +27,35 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\MyNuGetLibrary": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\MatchDeal\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\HubStream.Application.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\HubStream.Application.csproj"
               },
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj"
               },
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj"
               },
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Persistence\\HubStream.Infrastructure.Persistence.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Persistence\\HubStream.Infrastructure.Persistence.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Persistence\\HubStream.Infrastructure.Persistence.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Persistence\\HubStream.Infrastructure.Persistence.csproj"
               },
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Services\\HubStream.Infrastructure.Services.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Services\\HubStream.Infrastructure.Services.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Services\\HubStream.Infrastructure.Services.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Services\\HubStream.Infrastructure.Services.csproj"
               },
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.SignalR\\HubStream.Infrastructure.SignalR.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.SignalR\\HubStream.Infrastructure.SignalR.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.SignalR\\HubStream.Infrastructure.SignalR.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.SignalR\\HubStream.Infrastructure.SignalR.csproj"
               },
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
               }
             }
           }
@@ -132,26 +130,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj": {
+    "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\HubStream.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj",
+        "projectUniqueName": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\HubStream.Application.csproj",
         "projectName": "HubStream.Application",
-        "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\obj\\",
+        "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\HubStream.Application.csproj",
+        "packagesPath": "C:\\Users\\rbonito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Users\\rbonito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -159,22 +157,20 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\MyNuGetLibrary": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\MatchDeal\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj"
               },
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
               }
             }
           }
@@ -224,26 +220,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj": {
+    "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj",
         "projectName": "HubStream.Domain",
-        "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\obj\\",
+        "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj",
+        "packagesPath": "C:\\Users\\rbonito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Users\\rbonito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -251,19 +247,17 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\MyNuGetLibrary": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\MatchDeal\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
               }
             }
           }
@@ -309,26 +303,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj": {
+    "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj",
+        "projectUniqueName": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj",
         "projectName": "HubStream.Infrastructure.Middlewares",
-        "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\obj\\",
+        "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj",
+        "packagesPath": "C:\\Users\\rbonito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Middlewares\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Users\\rbonito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -336,19 +330,17 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\MyNuGetLibrary": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\MatchDeal\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj"
               }
             }
           }
@@ -398,26 +390,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Persistence\\HubStream.Infrastructure.Persistence.csproj": {
+    "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Persistence\\HubStream.Infrastructure.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Persistence\\HubStream.Infrastructure.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Persistence\\HubStream.Infrastructure.Persistence.csproj",
         "projectName": "HubStream.Infrastructure.Persistence",
-        "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Persistence\\HubStream.Infrastructure.Persistence.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Persistence\\HubStream.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\rbonito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Users\\rbonito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -425,22 +417,20 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\MyNuGetLibrary": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\MatchDeal\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\HubStream.Application.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\HubStream.Application.csproj"
               },
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj"
               }
             }
           }
@@ -469,6 +459,12 @@
               "target": "Package",
               "version": "[9.0.9, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -490,26 +486,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Services\\HubStream.Infrastructure.Services.csproj": {
+    "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Services\\HubStream.Infrastructure.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Services\\HubStream.Infrastructure.Services.csproj",
+        "projectUniqueName": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Services\\HubStream.Infrastructure.Services.csproj",
         "projectName": "HubStream.Infrastructure.Services",
-        "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Services\\HubStream.Infrastructure.Services.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Services\\obj\\",
+        "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Services\\HubStream.Infrastructure.Services.csproj",
+        "packagesPath": "C:\\Users\\rbonito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Users\\rbonito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -517,19 +513,17 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\MyNuGetLibrary": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\MatchDeal\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj": {
-                "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj"
+              "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\HubStream.Application.csproj": {
+                "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Application\\HubStream.Application.csproj"
               }
             }
           }
@@ -575,26 +569,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.SignalR\\HubStream.Infrastructure.SignalR.csproj": {
+    "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.SignalR\\HubStream.Infrastructure.SignalR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.SignalR\\HubStream.Infrastructure.SignalR.csproj",
+        "projectUniqueName": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.SignalR\\HubStream.Infrastructure.SignalR.csproj",
         "projectName": "HubStream.Infrastructure.SignalR",
-        "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.SignalR\\HubStream.Infrastructure.SignalR.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.SignalR\\obj\\",
+        "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.SignalR\\HubStream.Infrastructure.SignalR.csproj",
+        "packagesPath": "C:\\Users\\rbonito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Infrastructure.SignalR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Users\\rbonito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -602,11 +596,9 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\MyNuGetLibrary": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\MatchDeal\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -652,26 +644,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
+    "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj",
         "projectName": "HubStream.Shared",
-        "projectPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\obj\\",
+        "projectPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj",
+        "packagesPath": "C:\\Users\\rbonito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbonito\\source\\repos\\HubStream\\HubStream.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Users\\rbonito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -679,11 +671,9 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\MyNuGetLibrary": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\MatchDeal\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -723,7 +713,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

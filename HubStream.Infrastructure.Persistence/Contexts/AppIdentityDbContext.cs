@@ -1,4 +1,4 @@
-using HubStream.Domain.Users.Entities;
+﻿using HubStream.Domain.Users.Entities;
 using HubStream.Shared.Kernel.Domain;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -41,6 +41,7 @@ namespace HubStream.Infrastructure.Persistence.Contexts
             // Users
             builder.Entity<ApplicationUser>(b =>
             {
+                b.ToTable("Users"); // 👈 renombramos tabla
                 b.Property(u => u.Id)
                  .HasConversion(identifierConverter)
                  .HasMaxLength(50)
@@ -50,22 +51,49 @@ namespace HubStream.Infrastructure.Persistence.Contexts
             // Roles
             builder.Entity<ApplicationRole>(b =>
             {
+                b.ToTable("Roles"); // 👈 renombramos tabla
                 b.Property(r => r.Id)
                  .HasConversion(identifierConverter)
                  .HasMaxLength(50)
                  .HasColumnType("varchar(50)");
             });
 
-            // Relaciones
-            builder.Entity<ApplicationUserClaim>(b => b.Property(uc => uc.UserId).HasConversion(identifierConverter));
+            // UserClaims
+            builder.Entity<ApplicationUserClaim>(b =>
+            {
+                b.ToTable("UserClaims"); // 👈
+                b.Property(uc => uc.UserId).HasConversion(identifierConverter);
+            });
+
+            // UserRoles
             builder.Entity<ApplicationUserRole>(b =>
             {
+                b.ToTable("UserRoles"); // 👈
                 b.Property(ur => ur.UserId).HasConversion(identifierConverter);
                 b.Property(ur => ur.RoleId).HasConversion(identifierConverter);
             });
-            builder.Entity<ApplicationUserLogin>(b => b.Property(ul => ul.UserId).HasConversion(identifierConverter));
-            builder.Entity<ApplicationRoleClaim>(b => b.Property(rc => rc.RoleId).HasConversion(identifierConverter));
-            builder.Entity<ApplicationUserToken>(b => b.Property(ut => ut.UserId).HasConversion(identifierConverter));
+
+            // UserLogins
+            builder.Entity<ApplicationUserLogin>(b =>
+            {
+                b.ToTable("UserLogins"); // 👈
+                b.Property(ul => ul.UserId).HasConversion(identifierConverter);
+            });
+
+            // RoleClaims
+            builder.Entity<ApplicationRoleClaim>(b =>
+            {
+                b.ToTable("RoleClaims"); // 👈
+                b.Property(rc => rc.RoleId).HasConversion(identifierConverter);
+            });
+
+            // UserTokens
+            builder.Entity<ApplicationUserToken>(b =>
+            {
+                b.ToTable("UserTokens"); // 👈
+                b.Property(ut => ut.UserId).HasConversion(identifierConverter);
+            });
         }
+
     }
 }
