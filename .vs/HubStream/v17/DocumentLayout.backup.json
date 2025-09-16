@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "D:\\Development\\Repositories\\HubStream\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\apiclient\\hubstreamapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\apiclient\\hubstreamapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|d:\\development\\repositories\\hubstream\\hubstream.shared\\kernel\\common\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\common\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|d:\\development\\repositories\\hubstream\\hubstream.shared\\kernel\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\apiclient\\ihubstreamapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\apiclient\\ihubstreamapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\features\\authentication\\signup\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\features\\authentication\\signup\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BEF332-8FB2-4B9D-8A58-5773A600996B}|HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj|d:\\development\\repositories\\hubstream\\hubstream.infrastructure.middlewares\\globalexceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BEF332-8FB2-4B9D-8A58-5773A600996B}|HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj|solutionrelative:hubstream.infrastructure.middlewares\\globalexceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\features\\authentication\\forgotpassword\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\features\\authentication\\forgotpassword\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\features\\authentication\\login\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\features\\authentication\\login\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\features\\authentication\\changepassword\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\features\\authentication\\changepassword\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\features\\authentication\\signup\\signupresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\features\\authentication\\signup\\signupresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\features\\authentication\\signup\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\features\\authentication\\signup\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\features\\authentication\\resetpassword\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,36 +71,8 @@
       "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\features\\authentication\\login\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\features\\authentication\\login\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\features\\authentication\\login\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\features\\authentication\\forgotpassword\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\features\\authentication\\forgotpassword\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\features\\authentication\\externallogin\\externalloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\features\\authentication\\externallogin\\externalloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|d:\\development\\repositories\\hubstream\\hubstream.shared\\kernel\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|d:\\development\\repositories\\hubstream\\hubstream.shared\\kernel\\common\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CE42CD9-344C-486F-B33C-79DA544A8BBB}|HubStream.Shared\\HubStream.Shared.csproj|solutionrelative:hubstream.shared\\kernel\\common\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\apiclient\\hubstreamapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\apiclient\\hubstreamapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\apiclient\\ihubstreamapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|solutionrelative:hubstream.api.integration\\apiclient\\ihubstreamapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAE8075B-0D29-413C-9A39-02B710F7AC00}|HubStream.Api.Integration\\HubStream.Api.Integration.csproj|d:\\development\\repositories\\hubstream\\hubstream.api.integration\\hubstream.api.integration.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -97,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{88A27EC7-E92F-4892-A02F-3F80C4236CEE}|HubStream.Application\\HubStream.Application.csproj|d:\\development\\repositories\\hubstream\\hubstream.application\\features\\authentication\\commands\\changepassword\\changepasswordcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88A27EC7-E92F-4892-A02F-3F80C4236CEE}|HubStream.Application\\HubStream.Application.csproj|solutionrelative:hubstream.application\\features\\authentication\\commands\\changepassword\\changepasswordcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17BEF332-8FB2-4B9D-8A58-5773A600996B}|HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj|d:\\development\\repositories\\hubstream\\hubstream.infrastructure.middlewares\\globalexceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17BEF332-8FB2-4B9D-8A58-5773A600996B}|HubStream.Infrastructure.Middlewares\\HubStream.Infrastructure.Middlewares.csproj|solutionrelative:hubstream.infrastructure.middlewares\\globalexceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1BD840E-CBD6-4987-BF5F-43D54FC51DB3}|HubStream.Api\\HubStream.Api.csproj|d:\\development\\repositories\\hubstream\\hubstream.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -378,242 +378,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 13,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ForgotPasswordRequest.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ForgotPassword\\ForgotPasswordRequest.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ForgotPassword\\ForgotPasswordRequest.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ForgotPassword\\ForgotPasswordRequest.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\ForgotPassword\\ForgotPasswordRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:24:34.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginRequest.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginRequest.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:24:39.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginResponse.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginResponse.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:24:43.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LogoutRequest.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Logout\\LogoutRequest.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\Logout\\LogoutRequest.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Logout\\LogoutRequest.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\Logout\\LogoutRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:24:47.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RefreshTokenRequest.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\RefreshToken\\RefreshTokenRequest.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\RefreshToken\\RefreshTokenRequest.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\RefreshToken\\RefreshTokenRequest.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\RefreshToken\\RefreshTokenRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:24:53.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResendVerificationEmailRequest.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ResendVerificationEmail\\ResendVerificationEmailRequest.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ResendVerificationEmail\\ResendVerificationEmailRequest.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ResendVerificationEmail\\ResendVerificationEmailRequest.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\ResendVerificationEmail\\ResendVerificationEmailRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:24:58.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResetPasswordRequest.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ResetPassword\\ResetPasswordRequest.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ResetPassword\\ResetPasswordRequest.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ResetPassword\\ResetPasswordRequest.cs*",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\ResetPassword\\ResetPasswordRequest.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:25:02.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignUpRequest.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpRequest.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpRequest.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpRequest.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:25:06.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignUpResponse.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpResponse.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpResponse.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpResponse.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:25:10.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VerifyEmailRequest.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\VerifyEmail\\VerifyEmailRequest.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\VerifyEmail\\VerifyEmailRequest.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\VerifyEmail\\VerifyEmailRequest.cs*",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\VerifyEmail\\VerifyEmailRequest.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:25:14.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChangePasswordRequest.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ChangePassword\\ChangePasswordRequest.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ChangePassword\\ChangePasswordRequest.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ChangePassword\\ChangePasswordRequest.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\ChangePassword\\ChangePasswordRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:24:23.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ExternalLoginRequest.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ExternalLogin\\ExternalLoginRequest.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ExternalLogin\\ExternalLoginRequest.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ExternalLogin\\ExternalLoginRequest.cs*",
-              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\ExternalLogin\\ExternalLoginRequest.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:24:29.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Common\\ApiResponse.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\ApiResponse.cs",
-              "RelativeToolTip": "HubStream.Shared\\Kernel\\Common\\ApiResponse.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAxwCAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T16:49:46.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\DependencyInjection.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\DependencyInjection.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:31:05.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApiError.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\ApiError.cs",
-              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Common\\ApiError.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\ApiError.cs",
-              "RelativeToolTip": "HubStream.Shared\\Kernel\\Common\\ApiError.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T16:49:41.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HubStreamApiClient.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\ApiClient\\HubStreamApiClient.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\ApiClient\\HubStreamApiClient.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\ApiClient\\HubStreamApiClient.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\ApiClient\\HubStreamApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:26:55.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IHubStreamApiClient.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\ApiClient\\IHubStreamApiClient.cs",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\ApiClient\\IHubStreamApiClient.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\ApiClient\\IHubStreamApiClient.cs",
-              "RelativeToolTip": "HubStream.Api.Integration\\ApiClient\\IHubStreamApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:25:42.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HubStream.Api.Integration",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\HubStream.Api.Integration.csproj",
-              "RelativeDocumentMoniker": "HubStream.Api.Integration\\HubStream.Api.Integration.csproj",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\HubStream.Api.Integration.csproj",
-              "RelativeToolTip": "HubStream.Api.Integration\\HubStream.Api.Integration.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-15T19:22:54.248Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -628,7 +394,262 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 13,
+              "Title": "ResendVerificationEmailRequest.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ResendVerificationEmail\\ResendVerificationEmailRequest.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ResendVerificationEmail\\ResendVerificationEmailRequest.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ResendVerificationEmail\\ResendVerificationEmailRequest.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\ResendVerificationEmail\\ResendVerificationEmailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:24:58.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ResetPassword\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ResetPassword\\ResetPasswordRequest.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ResetPassword\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\ResetPassword\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:25:02.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignUpRequest.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpRequest.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpRequest.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpRequest.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:25:06.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SignUpResponse.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpResponse.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpResponse.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpResponse.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:25:10.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VerifyEmailRequest.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\VerifyEmail\\VerifyEmailRequest.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\VerifyEmail\\VerifyEmailRequest.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\VerifyEmail\\VerifyEmailRequest.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\VerifyEmail\\VerifyEmailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:25:14.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChangePasswordRequest.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ChangePassword\\ChangePasswordRequest.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ChangePassword\\ChangePasswordRequest.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ChangePassword\\ChangePasswordRequest.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\ChangePassword\\ChangePasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:24:23.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HubStreamApiClient.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\ApiClient\\HubStreamApiClient.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\ApiClient\\HubStreamApiClient.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\ApiClient\\HubStreamApiClient.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\ApiClient\\HubStreamApiClient.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwEIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:26:55.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IHubStreamApiClient.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\ApiClient\\IHubStreamApiClient.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\ApiClient\\IHubStreamApiClient.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\ApiClient\\IHubStreamApiClient.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\ApiClient\\IHubStreamApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:25:42.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Common\\ApiResponse.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "HubStream.Shared\\Kernel\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowDMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T16:49:46.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiError.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\ApiError.cs",
+              "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Common\\ApiError.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\ApiError.cs",
+              "RelativeToolTip": "HubStream.Shared\\Kernel\\Common\\ApiError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T16:49:41.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\DependencyInjection.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\DependencyInjection.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:31:05.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RefreshTokenRequest.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\RefreshToken\\RefreshTokenRequest.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\RefreshToken\\RefreshTokenRequest.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\RefreshToken\\RefreshTokenRequest.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\RefreshToken\\RefreshTokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:24:53.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginRequest.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginRequest.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:24:39.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ForgotPassword\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ForgotPassword\\ForgotPasswordRequest.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ForgotPassword\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\ForgotPassword\\ForgotPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:24:34.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\GlobalExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "HubStream.Infrastructure.Middlewares\\GlobalExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\GlobalExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "HubStream.Infrastructure.Middlewares\\GlobalExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwCQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T16:45:18.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LogoutRequest.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Logout\\LogoutRequest.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\Logout\\LogoutRequest.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Logout\\LogoutRequest.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\Logout\\LogoutRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:24:47.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginResponse.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginResponse.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:24:43.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExternalLoginRequest.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ExternalLogin\\ExternalLoginRequest.cs",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ExternalLogin\\ExternalLoginRequest.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ExternalLogin\\ExternalLoginRequest.cs",
+              "RelativeToolTip": "HubStream.Api.Integration\\Features\\Authentication\\ExternalLogin\\ExternalLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:24:29.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HubStream.Api.Integration",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\HubStream.Api.Integration.csproj",
+              "RelativeDocumentMoniker": "HubStream.Api.Integration\\HubStream.Api.Integration.csproj",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\HubStream.Api.Integration.csproj",
+              "RelativeToolTip": "HubStream.Api.Integration\\HubStream.Api.Integration.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-15T19:22:54.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "LoginCommandHandler.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
@@ -706,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ChangePasswordCommandHandler.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ChangePassword\\ChangePasswordCommandHandler.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ChangePassword\\ChangePasswordCommandHandler.cs",
@@ -719,7 +740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginCommand.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginCommand.cs",
@@ -732,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "LoginResult.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginResult.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginResult.cs",
@@ -745,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "SignUpCommand.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\SignUp\\SignUpCommand.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\SignUp\\SignUpCommand.cs",
@@ -758,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "SignUpResult.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\SignUp\\SignUpResult.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\SignUp\\SignUpResult.cs",
@@ -768,27 +789,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T17:02:19.674Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GlobalExceptionHandlingMiddleware.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\GlobalExceptionHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "HubStream.Infrastructure.Middlewares\\GlobalExceptionHandlingMiddleware.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\GlobalExceptionHandlingMiddleware.cs",
-              "RelativeToolTip": "HubStream.Infrastructure.Middlewares\\GlobalExceptionHandlingMiddleware.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T16:45:18.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",

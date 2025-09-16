@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KysftVS2xhY=",
+  "dgSpecHash": "obtL2o2hg5k=",
   "success": true,
   "projectFilePath": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\HubStream.Api.csproj",
   "expectedPackageFiles": [
@@ -114,7 +114,8 @@
     "C:\\Users\\usuario\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\system.text.json\\9.0.9\\system.text.json.9.0.9.nupkg.sha512",
-    "C:\\Users\\usuario\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512"
+    "C:\\Users\\usuario\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\hubstream.shared\\1.0.0\\hubstream.shared.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

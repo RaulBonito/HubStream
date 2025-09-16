@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hNxm6GFmXCM=",
+  "dgSpecHash": "Q71jpb2c6wU=",
   "success": true,
   "projectFilePath": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\HubStream.Application.csproj",
   "expectedPackageFiles": [
@@ -55,7 +55,8 @@
     "C:\\Users\\usuario\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\system.security.cryptography.xml\\8.0.2\\system.security.cryptography.xml.8.0.2.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\usuario\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512"
+    "C:\\Users\\usuario\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\hubstream.shared\\1.0.0\\hubstream.shared.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

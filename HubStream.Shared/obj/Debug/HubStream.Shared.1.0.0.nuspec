@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HubStream.Shared</id>
+    <version>1.0.0</version>
+    <authors>HubStream.Shared</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="cd171a8fafdc871cab6fdeb906f6c0c61e38fffc" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Development\Repositories\HubStream\HubStream.Shared\bin\Debug\net9.0\HubStream.Shared.dll" target="lib\net9.0\HubStream.Shared.dll" />
+  </files>
+</package>

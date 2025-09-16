@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HubStream.Api.Integration</id>
+    <version>1.0.0</version>
+    <authors>HubStream.Api.Integration</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="cd171a8fafdc871cab6fdeb906f6c0c61e38fffc" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="HubStream.Shared" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.9" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Http" version="9.0.9" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Development\Repositories\HubStream\HubStream.Api.Integration\bin\Debug\net9.0\HubStream.Api.Integration.dll" target="lib\net9.0\HubStream.Api.Integration.dll" />
+  </files>
+</package>
