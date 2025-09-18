@@ -749,7 +749,11 @@
             "type": "string",
             "nullable": true
           },
-          "accessToken": {
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "redirectUri": {
             "type": "string",
             "nullable": true
           }

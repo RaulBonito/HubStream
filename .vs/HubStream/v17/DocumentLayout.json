@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Development\\Repositories\\HubStream\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1BD840E-CBD6-4987-BF5F-43D54FC51DB3}|HubStream.Api\\HubStream.Api.csproj|d:\\development\\repositories\\hubstream\\hubstream.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BD840E-CBD6-4987-BF5F-43D54FC51DB3}|HubStream.Api\\HubStream.Api.csproj|solutionrelative:hubstream.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88A27EC7-E92F-4892-A02F-3F80C4236CEE}|HubStream.Application\\HubStream.Application.csproj|d:\\development\\repositories\\hubstream\\hubstream.application\\features\\authentication\\commands\\externallogin\\externallogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88A27EC7-E92F-4892-A02F-3F80C4236CEE}|HubStream.Application\\HubStream.Application.csproj|solutionrelative:hubstream.application\\features\\authentication\\commands\\externallogin\\externallogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{88A27EC7-E92F-4892-A02F-3F80C4236CEE}|HubStream.Application\\HubStream.Application.csproj|solutionrelative:hubstream.application\\features\\authentication\\commands\\externallogin\\externallogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1BD840E-CBD6-4987-BF5F-43D54FC51DB3}|HubStream.Api\\HubStream.Api.csproj|d:\\development\\repositories\\hubstream\\hubstream.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1BD840E-CBD6-4987-BF5F-43D54FC51DB3}|HubStream.Api\\HubStream.Api.csproj|solutionrelative:hubstream.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1BD840E-CBD6-4987-BF5F-43D54FC51DB3}|HubStream.Api\\HubStream.Api.csproj|d:\\development\\repositories\\hubstream\\hubstream.api\\hubstream.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C1BD840E-CBD6-4987-BF5F-43D54FC51DB3}|HubStream.Api\\HubStream.Api.csproj|solutionrelative:hubstream.api\\hubstream.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1BD840E-CBD6-4987-BF5F-43D54FC51DB3}|HubStream.Api\\HubStream.Api.csproj|d:\\development\\repositories\\hubstream\\hubstream.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -381,7 +385,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -396,8 +400,42 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "HubStream.Api.http",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\HubStream.Api.http",
+              "RelativeDocumentMoniker": "HubStream.Api\\HubStream.Api.http",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\HubStream.Api.http",
+              "RelativeToolTip": "HubStream.Api\\HubStream.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-09-17T08:01:21.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExternalLoginCommandHandler.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommandHandler.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommandHandler.cs",
+              "RelativeToolTip": "HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommandHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T16:13:27.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HubStreamApiClient.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\ApiClient\\HubStreamApiClient.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\ApiClient\\HubStreamApiClient.cs",
@@ -410,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IHubStreamApiClient.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\ApiClient\\IHubStreamApiClient.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\ApiClient\\IHubStreamApiClient.cs",
@@ -423,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\ApiResponse.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Common\\ApiResponse.cs",
@@ -436,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ApiError.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\ApiError.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Common\\ApiError.cs",
@@ -449,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\DependencyInjection.cs",
@@ -462,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "HubStream.Api\\Controllers\\AuthController.cs",
@@ -475,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\appsettings.json",
               "RelativeDocumentMoniker": "HubStream.Api\\appsettings.json",
@@ -488,58 +526,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\Program.cs",
               "RelativeDocumentMoniker": "HubStream.Api\\Program.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\Program.cs",
-              "RelativeToolTip": "HubStream.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\Program.cs*",
+              "RelativeToolTip": "HubStream.Api\\Program.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T19:10:12.522Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExternalLoginCommand.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommand.cs",
-              "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommand.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommand.cs",
-              "RelativeToolTip": "HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T16:12:59.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExternalLoginCommandHandler.cs",
-              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommandHandler.cs",
-              "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommandHandler.cs",
-              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommandHandler.cs",
-              "RelativeToolTip": "HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommandHandler.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswE4AAACHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T16:13:27.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExternalLoginCommand.cs",
+              "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommand.cs",
+              "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommand.cs",
+              "ToolTip": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommand.cs",
+              "RelativeToolTip": "HubStream.Application\\Features\\Authentication\\Commands\\ExternalLogin\\ExternalLoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T16:12:59.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ChangePasswordRequest.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ChangePassword\\ChangePasswordRequest.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ChangePassword\\ChangePasswordRequest.cs",
@@ -552,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "VerifyEmailRequest.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\VerifyEmail\\VerifyEmailRequest.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\VerifyEmail\\VerifyEmailRequest.cs",
@@ -565,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "SignUpResponse.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpResponse.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpResponse.cs",
@@ -578,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -589,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ResetPasswordRequest.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ResetPassword\\ResetPasswordRequest.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ResetPassword\\ResetPasswordRequest.cs",
@@ -602,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SignUpRequest.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpRequest.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\SignUp\\SignUpRequest.cs",
@@ -615,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ResendVerificationEmailRequest.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ResendVerificationEmail\\ResendVerificationEmailRequest.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ResendVerificationEmail\\ResendVerificationEmailRequest.cs",
@@ -628,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "RefreshTokenRequest.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\RefreshToken\\RefreshTokenRequest.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\RefreshToken\\RefreshTokenRequest.cs",
@@ -641,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginRequest.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginRequest.cs",
@@ -654,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ForgotPasswordRequest.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ForgotPassword\\ForgotPasswordRequest.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ForgotPassword\\ForgotPasswordRequest.cs",
@@ -667,7 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GlobalExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Middlewares\\GlobalExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "HubStream.Infrastructure.Middlewares\\GlobalExceptionHandlingMiddleware.cs",
@@ -680,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "LogoutRequest.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Logout\\LogoutRequest.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\Logout\\LogoutRequest.cs",
@@ -693,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginResponse.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\Login\\LoginResponse.cs",
@@ -706,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ExternalLoginRequest.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\Features\\Authentication\\ExternalLogin\\ExternalLoginRequest.cs",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\Features\\Authentication\\ExternalLogin\\ExternalLoginRequest.cs",
@@ -719,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "HubStream.Api.Integration.csproj",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api.Integration\\HubStream.Api.Integration.csproj",
               "RelativeDocumentMoniker": "HubStream.Api.Integration\\HubStream.Api.Integration.csproj",
@@ -732,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "LoginCommandHandler.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
@@ -745,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Result.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\Result.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Common\\Result.cs",
@@ -758,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Persistence\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "HubStream.Infrastructure.Persistence\\DependencyInjection.cs",
@@ -771,7 +788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "JwtTokenGenerator.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Persistence\\Security\\JwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "HubStream.Infrastructure.Persistence\\Security\\JwtTokenGenerator.cs",
@@ -784,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "ChangePasswordCommandHandler.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ChangePassword\\ChangePasswordCommandHandler.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ChangePassword\\ChangePasswordCommandHandler.cs",
@@ -797,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginCommand.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginCommand.cs",
@@ -810,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "LoginResult.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginResult.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\Login\\LoginResult.cs",
@@ -823,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "SignUpCommand.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\SignUp\\SignUpCommand.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\SignUp\\SignUpCommand.cs",
@@ -836,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "SignUpResult.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\SignUp\\SignUpResult.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\SignUp\\SignUpResult.cs",
@@ -849,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Services\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "HubStream.Infrastructure.Services\\DependencyInjection.cs",
@@ -862,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ChangePasswordCommand.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ChangePassword\\ChangePasswordCommand.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ChangePassword\\ChangePasswordCommand.cs",
@@ -875,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "RefreshTokenCommandHandler.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\RefreshToken\\RefreshTokenCommandHandler.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\RefreshToken\\RefreshTokenCommandHandler.cs",
@@ -888,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "SignUpCommandHandler.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\SignUp\\SignUpCommandHandler.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\SignUp\\SignUpCommandHandler.cs",
@@ -901,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Users\\Entities\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Users\\Entities\\ApplicationUser.cs",
@@ -914,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Identifier.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Domain\\Identifier.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Domain\\Identifier.cs",
@@ -927,7 +944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "AppIdentityDbContext.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Persistence\\Contexts\\AppIdentityDbContext.cs",
               "RelativeDocumentMoniker": "HubStream.Infrastructure.Persistence\\Contexts\\AppIdentityDbContext.cs",
@@ -940,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "ResendVerificationEmailCommand.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ResendVerificationEmail\\ResendVerificationEmailCommand.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ResendVerificationEmail\\ResendVerificationEmailCommand.cs",
@@ -953,7 +970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "ResendVerificationEmailCommandHandler.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ResendVerificationEmail\\ResendVerificationEmailCommandHandler.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ResendVerificationEmail\\ResendVerificationEmailCommandHandler.cs",
@@ -966,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Services\\Common\\IEmailService.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Services\\Common\\IEmailService.cs",
@@ -979,7 +996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Services\\Common\\EmailService.cs",
               "RelativeDocumentMoniker": "HubStream.Infrastructure.Services\\Common\\EmailService.cs",
@@ -992,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "ForgotPasswordCommand.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ForgotPassword\\ForgotPasswordCommand.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ForgotPassword\\ForgotPasswordCommand.cs",
@@ -1005,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "ForgotPasswordCommandHandler.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ForgotPassword\\ForgotPasswordCommandHandler.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ForgotPassword\\ForgotPasswordCommandHandler.cs",
@@ -1018,7 +1035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "VerifyEmailCommandHandler.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\VerifyEmail\\VerifyEmailCommandHandler.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\VerifyEmail\\VerifyEmailCommandHandler.cs",
@@ -1031,7 +1048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "VerifyEmailCommand.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\VerifyEmail\\VerifyEmailCommand.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\VerifyEmail\\VerifyEmailCommand.cs",
@@ -1044,7 +1061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "LogoutCommandHandler.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\Logout\\LogoutCommandHandler.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\Logout\\LogoutCommandHandler.cs",
@@ -1057,7 +1074,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "LogoutCommand.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\Logout\\LogoutCommand.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\Logout\\LogoutCommand.cs",
@@ -1070,7 +1087,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "RefreshTokenCommand.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\RefreshToken\\RefreshTokenCommand.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\RefreshToken\\RefreshTokenCommand.cs",
@@ -1083,7 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "Identity.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Users\\Entities\\Identity.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Users\\Entities\\Identity.cs",
@@ -1096,7 +1113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "IJwtGenerator.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Services\\Common\\IJwtGenerator.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Services\\Common\\IJwtGenerator.cs",
@@ -1109,7 +1126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "ResetPasswordCommand.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ResetPassword\\ResetPasswordCommand.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ResetPassword\\ResetPasswordCommand.cs",
@@ -1122,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "ResetPasswordCommandHandler.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Application\\Features\\Authentication\\Commands\\ResetPassword\\ResetPasswordCommandHandler.cs",
               "RelativeDocumentMoniker": "HubStream.Application\\Features\\Authentication\\Commands\\ResetPassword\\ResetPasswordCommandHandler.cs",
@@ -1135,7 +1152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "IdentityDataSeeder.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Persistence\\Seeds\\IdentityDataSeeder.cs",
               "RelativeDocumentMoniker": "HubStream.Infrastructure.Persistence\\Seeds\\IdentityDataSeeder.cs",
@@ -1148,7 +1165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "AppIdentityDbContextFactory.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.Persistence\\Factory\\AppIdentityDbContextFactory.cs",
               "RelativeDocumentMoniker": "HubStream.Infrastructure.Persistence\\Factory\\AppIdentityDbContextFactory.cs",
@@ -1161,7 +1178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "HubStream.Api\\appsettings.Development.json",
@@ -1174,7 +1191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "LiveStream.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\Entities\\LiveStream.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Entities\\LiveStream.cs",
@@ -1187,7 +1204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "IJwtGenerator.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\IJwtGenerator.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\IJwtGenerator.cs",
@@ -1200,7 +1217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "Error.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Common\\Error.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Common\\Error.cs",
@@ -1213,7 +1230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "SignalingHub.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Infrastructure.SignalR\\SignalingHub.cs",
               "RelativeDocumentMoniker": "HubStream.Infrastructure.SignalR\\SignalingHub.cs",
@@ -1226,7 +1243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "Review.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\Entities\\Review.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Entities\\Review.cs",
@@ -1239,7 +1256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "UserEnrolledToStream.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\Events\\UserEnrolledToStream.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\UserEnrolledToStream.cs",
@@ -1252,7 +1269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "LiveStreamScheduled.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamScheduled.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\LiveStreamScheduled.cs",
@@ -1265,7 +1282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\Entities\\Enrollment.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Entities\\Enrollment.cs",
@@ -1278,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "Result.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Result.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Result.cs",
@@ -1289,7 +1306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "Error.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Error.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Error.cs",
@@ -1300,7 +1317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "StreamCapacity.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\ValueObjects\\StreamCapacity.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\ValueObjects\\StreamCapacity.cs",
@@ -1313,7 +1330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "StreamTimeSlot.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\ValueObjects\\StreamTimeSlot.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\ValueObjects\\StreamTimeSlot.cs",
@@ -1326,7 +1343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "Currency.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Currencies\\Enums\\Currency.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Currencies\\Enums\\Currency.cs",
@@ -1339,7 +1356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Users\\Entities\\User.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Users\\Entities\\User.cs",
@@ -1352,7 +1369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "Money.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Currencies\\Entities\\Money.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Currencies\\Entities\\Money.cs",
@@ -1365,7 +1382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 82,
               "Title": "HubStream.Domain.csproj",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\HubStream.Domain.csproj",
               "RelativeDocumentMoniker": "HubStream.Domain\\HubStream.Domain.csproj",
@@ -1378,7 +1395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 81,
               "Title": "LiveStreamStatus.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\Enums\\LiveStreamStatus.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Enums\\LiveStreamStatus.cs",
@@ -1391,7 +1408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "HubStream.Shared.csproj",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\HubStream.Shared.csproj",
               "RelativeDocumentMoniker": "HubStream.Shared\\HubStream.Shared.csproj",
@@ -1404,7 +1421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "Rating.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\ValueObjects\\Rating.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\ValueObjects\\Rating.cs",
@@ -1417,7 +1434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "ReviewSubmitted.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\Events\\ReviewSubmitted.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\ReviewSubmitted.cs",
@@ -1430,7 +1447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "LiveStreamCancelled.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamCancelled.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\LiveStreamCancelled.cs",
@@ -1443,7 +1460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "LiveStreamStarted.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamStarted.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\LiveStreamStarted.cs",
@@ -1456,7 +1473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "LiveStreamEnded.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Scheduling\\Events\\LiveStreamEnded.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Scheduling\\Events\\LiveStreamEnded.cs",
@@ -1469,7 +1486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "Identifier.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Identifier.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Identifier.cs",
@@ -1480,7 +1497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Users\\ValueObjects\\UserProfile.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Users\\ValueObjects\\UserProfile.cs",
@@ -1493,7 +1510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "Email.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Users\\ValueObjects\\Email.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Users\\ValueObjects\\Email.cs",
@@ -1506,7 +1523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 83,
               "Title": "FullName.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Users\\ValueObjects\\FullName.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Users\\ValueObjects\\FullName.cs",
@@ -1519,7 +1536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "UserPromotedToStreamer.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Users\\Events\\UserPromotedToStreamer.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Users\\Events\\UserPromotedToStreamer.cs",
@@ -1532,7 +1549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 84,
               "Title": "UserRegistered.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Domain\\Users\\Events\\UserRegistered.cs",
               "RelativeDocumentMoniker": "HubStream.Domain\\Users\\Events\\UserRegistered.cs",
@@ -1545,7 +1562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 89,
               "Title": "ISoftDelete.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\ISoftDelete.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\ISoftDelete.cs",
@@ -1556,7 +1573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 90,
               "Title": "IAuditableEntity.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\IAuditableEntity.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\IAuditableEntity.cs",
@@ -1567,7 +1584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 91,
               "Title": "IDomainEvent.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\IDomainEvent.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\IDomainEvent.cs",
@@ -1578,7 +1595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 92,
               "Title": "AgregateRoot.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\AgregateRoot.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\AgregateRoot.cs",
@@ -1589,7 +1606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 93,
               "Title": "Entity.cs",
               "DocumentMoniker": "D:\\Development\\Repositories\\HubStream\\HubStream.Shared\\Kernel\\Entity.cs",
               "RelativeDocumentMoniker": "HubStream.Shared\\Kernel\\Entity.cs",

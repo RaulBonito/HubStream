@@ -37,6 +37,7 @@ builder.Services.AddSingleton(appSettings);
 
 // 1. Controladores de la API
 builder.Services.AddControllers();
+builder.Services.AddHttpClient();
 
 // 2. Configuración de Autenticación y Autorización
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

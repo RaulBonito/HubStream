@@ -12,7 +12,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
+using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -23,15 +25,21 @@ namespace HubStream.Application.Features.Authentication.Commands.ExternalLogin
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IJwtTokenGenerator _jwtTokenGenerator;
         private readonly ILogger<ExternalLoginCommandHandler> _logger;
+        private readonly IConfiguration _configuration;
+        private readonly HttpClient _httpClient;
 
         public ExternalLoginCommandHandler(
             UserManager<ApplicationUser> userManager,
             IJwtTokenGenerator jwtTokenGenerator,
-            ILogger<ExternalLoginCommandHandler> logger)
+            ILogger<ExternalLoginCommandHandler> logger,
+            IConfiguration configuration,
+            HttpClient httpClient)
         {
             _userManager = userManager;
             _jwtTokenGenerator = jwtTokenGenerator;
             _logger = logger;
+            _configuration = configuration;
+            _httpClient = httpClient;
         }
 
         public async Task<Result<LoginResult>> Handle(ExternalLoginCommand request, CancellationToken cancellationToken)
@@ -42,7 +50,10 @@ namespace HubStream.Application.Features.Authentication.Commands.ExternalLogin
                 string subject;
                 string fullName;
 
-                // 1. Validar el token de acceso y extraer información del usuario
+                // 1. Intercambiar el código por un token de acceso
+                var tokenResponse = await ExchangeCodeForAccessTokenAsync(request.Code, request.RedirectUri);
+
+                // 2. Validar el token de acceso y extraer información del usuario
                 if (request.Provider.Equals("Google", StringComparison.OrdinalIgnoreCase))
                 {
                     _logger.LogInformation("Attempting to get user info using Google Access Token.");
@@ -50,7 +61,7 @@ namespace HubStream.Application.Features.Authentication.Commands.ExternalLogin
                     // Usar el AccessToken para llamar a la API de Google People
                     var peopleService = new PeopleServiceService(new BaseClientService.Initializer
                     {
-                        HttpClientInitializer = GoogleCredential.FromAccessToken(request.AccessToken),
+                        HttpClientInitializer = GoogleCredential.FromAccessToken(tokenResponse.AccessToken),
                         ApplicationName = "HubStream"
                     });
 
@@ -86,7 +97,7 @@ namespace HubStream.Application.Features.Authentication.Commands.ExternalLogin
                     return Result<LoginResult>.Failure(new Error("Auth.UnsupportedProvider", $"Proveedor externo no soportado: {request.Provider}"));
                 }
 
-                // 2. Buscar si el usuario ya existe con este login externo
+                // 3. Buscar si el usuario ya existe con este login externo
                 var info = new UserLoginInfo(request.Provider, subject, request.Provider);
                 var user = await _userManager.FindByLoginAsync(info.LoginProvider, info.ProviderKey);
 
@@ -150,6 +161,39 @@ namespace HubStream.Application.Features.Authentication.Commands.ExternalLogin
                 _logger.LogError(ex, "An unexpected error occurred during external login.");
                 return Result<LoginResult>.Failure(new Error("Auth.ExternalLoginError", $"Ocurrió un error inesperado durante el inicio de sesión externo: {ex.Message}"));
             }
+        }
+
+        private async Task<GoogleTokenResponse> ExchangeCodeForAccessTokenAsync(string code, string redirectUri)
+        {
+            var tokenEndpoint = "https://oauth2.googleapis.com/token";
+            var clientId = _configuration["Google:ClientId"];
+            var clientSecret = _configuration["Google:ClientSecret"];
+
+            var content = new FormUrlEncodedContent(new[]
+            {
+                new KeyValuePair<string, string>("client_id", clientId),
+                new KeyValuePair<string, string>("client_secret", clientSecret),
+                new KeyValuePair<string, string>("code", code),
+                new KeyValuePair<string, string>("redirect_uri", redirectUri),
+                new KeyValuePair<string, string>("grant_type", "authorization_code")
+            });
+
+            var response = await _httpClient.PostAsync(tokenEndpoint, content);
+            response.EnsureSuccessStatusCode();
+
+
+            var responseString = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<GoogleTokenResponse>(responseString);
+        }
+
+        private class GoogleTokenResponse
+        {
+            public string AccessToken { get; set; }
+            public string IdToken { get; set; }
+            public string TokenType { get; set; }
+            public int ExpiresIn { get; set; }
+            public string RefreshToken { get; set; }
+            public string Scope { get; set; }
         }
     }
 }
